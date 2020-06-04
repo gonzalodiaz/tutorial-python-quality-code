@@ -1,0 +1,12 @@
+name: tutorial-python-quality-code-env
+channels:
+- defaults
+- conda-forge
+dependencies:
+- python=3.8.3
+- pre-commit=2.4.0
+# No need to have the following libraries installed when using pre-commit
+#- flake8=3.8.2
+#- pydocstyle=4.0.1
+#- mypy=0.770
+# - black=19.10b
